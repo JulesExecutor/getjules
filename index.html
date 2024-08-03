@@ -5,6 +5,21 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Jules</title>
     <link rel="stylesheet" type="text/css" href="styles.css">
+    
+    <!-- Open Graph Meta Tags -->
+    <meta property="og:title" content="Jules Executor" />
+    <meta property="og:description" content="Unleash your scripting powers in Roblox with Jules! Run custom Lua scripts, automate tasks, and enhance your gameplay." />
+    <meta property="og:image" content="https://cdn.discordapp.com/attachments/1268466874056966167/1269265629417050203/image.png?ex=66af6f3b&is=66ae1dbb&hm=209ebc5ade6a5ac424d95d6c6073b3605a47256dc8593cda7569daa41682e02d&" />
+    <meta property="og:url" content="https://yourwebsite.com" />
+    <meta property="og:type" content="website" />
+    <meta property="og:color" content="#b30000" /> <!-- Optional, not all platforms support this -->
+
+    <!-- Twitter Card Meta Tags (for better cross-platform support) -->
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:title" content="Jules Executor" />
+    <meta name="twitter:description" content="Unleash your scripting powers in Roblox with Jules! Run custom Lua scripts, automate tasks, and enhance your gameplay." />
+    <meta name="twitter:image" content="https://cdn.discordapp.com/attachments/1268466874056966167/1269265629417050203/image.png?ex=66af6f3b&is=66ae1dbb&hm=209ebc5ade6a5ac424d95d6c6073b3605a47256dc8593cda7569daa41682e02d&" />
+    
 </head>
 <body>
     <header>
@@ -68,13 +83,5 @@
             logo.style.transform = `rotateX(${rotateX}deg) rotateY(${rotateY}deg)`;
         });
     </script>
-    <script>
-        document.addEventListener('contextmenu', (event) => {
-            if (event.target.matches('.logo')) {
-                event.preventDefault(); // Prevent the context menu from appearing
-            }
-        });
-    </script>
-    
 </body>
 </html>
